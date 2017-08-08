@@ -27,8 +27,10 @@ function handValue (hand) {
     const sum2 = n + f + aEleven;
 
   if (sum2 > sum1 && sum2 <= 21){
+    console.log(sum2);
     return sum2;
   } else {
+    console.log(sum1);
     return sum1;
   }
 
